@@ -1,0 +1,156 @@
+garden spider, Aranea diademata 0.25868
+leaf beetle, chrysomelid 0.218809
+barn spider, Araneus cavaticus 0.205007
+spider web, spider's web 0.049965
+ant, emmet, pismire 0.0496936
+fly 0.0457163
+bee 0.800471
+cardoon 0.0980157
+artichoke, globe artichoke 0.0374008
+fly 0.0325081
+acorn 0.00333983
+harvestman, daddy longlegs, Phalangium opilio 0.00267675
+bee 0.896625
+fly 0.0564438
+ant, emmet, pismire 0.0114524
+rhinoceros beetle 0.00710412
+leaf beetle, chrysomelid 0.00283826
+cockroach, roach 0.0028091
+bee 0.756013
+cardoon 0.205207
+ant, emmet, pismire 0.0136814
+daisy 0.0040806
+ladybug, ladybeetle, lady beetle, ladybird, ladybird beetle 0.00406578
+fly 0.00271524
+cicada, cicala 0.477002
+bee 0.401294
+grasshopper, hopper 0.0427905
+cricket 0.0218104
+leafhopper 0.020851
+fly 0.0175558
+honeycomb 0.350292
+apiary, bee house 0.193461
+jackfruit, jak, jack 0.117779
+brain coral 0.0450479
+common newt, Triturus vulgaris 0.0424547
+corn 0.0414341
+bee 0.544716
+pineapple, ananas 0.0840428
+buckeye, horse chestnut, conker 0.0724521
+cardoon 0.056253
+artichoke, globe artichoke 0.0358675
+cabbage butterfly 0.0283683
+bee 0.984925
+ladybug, ladybeetle, lady beetle, ladybird, ladybird beetle 0.00818538
+fly 0.00490119
+leaf beetle, chrysomelid 0.000257044
+cardoon 0.0002212
+macaw 0.00018891
+bee 0.622776
+coral reef 0.0546071
+cabbage butterfly 0.0387542
+scuba diver 0.0316845
+lionfish 0.0216226
+mask 0.0189559
+bee 0.999908
+fly 4.77596e-05
+tarantula 4.44035e-05
+dumbbell 0
+carbonara 0
+stole 0
+bee 0.99887
+fly 0.000521727
+long-horned beetle, longicorn, longicorn beetle 0.000141286
+ant, emmet, pismire 0.000107168
+cardoon 0.000101
+admiral 5.24086e-05
+bee 0.996678
+fly 0.0031003
+garden spider, Aranea diademata 9.11717e-05
+cricket 5.74701e-05
+black widow, Latrodectus mactans 1.66221e-05
+wolf spider, hunting spider 1.6391e-05
+tarantula 0.264637
+knot 0.0819693
+barn spider, Araneus cavaticus 0.0559773
+hair slide 0.0522802
+ant, emmet, pismire 0.0311851
+letter opener, paper knife, paperknife 0.0180955
+bee 0.530275
+cardoon 0.441783
+admiral 0.00796725
+ladybug, ladybeetle, lady beetle, ladybird, ladybird beetle 0.00446131
+fly 0.00444476
+sulphur butterfly, sulfur butterfly 0.00329494
+cricket 0.466281
+cicada, cicala 0.172393
+long-horned beetle, longicorn, longicorn beetle 0.095891
+bee 0.0944037
+grasshopper, hopper 0.0567151
+ground beetle, carabid beetle 0.0271538
+bee 0.975035
+fly 0.020236
+ant, emmet, pismire 0.0031347
+cricket 0.000990777
+long-horned beetle, longicorn, longicorn beetle 0.000290708
+leaf beetle, chrysomelid 0.000170365
+bee 0.900401
+ladybug, ladybeetle, lady beetle, ladybird, ladybird beetle 0.0659769
+leaf beetle, chrysomelid 0.0235453
+fly 0.00894624
+admiral 0.000293043
+long-horned beetle, longicorn, longicorn beetle 0.000291806
+bee 0.912272
+fly 0.0666724
+long-horned beetle, longicorn, longicorn beetle 0.013309
+cricket 0.00277727
+ant, emmet, pismire 0.00145031
+harvestman, daddy longlegs, Phalangium opilio 0.00121378
+bee 0.813299
+fly 0.0849751
+dragonfly, darning needle, devil's darning needle, sewing needle, snake feeder, snake doctor, mosquito hawk, skeeter hawk 0.0363567
+garden spider, Aranea diademata 0.0128686
+black and gold garden spider, Argiope aurantia 0.00774976
+leaf beetle, chrysomelid 0.00579437
+ant, emmet, pismire 0.199787
+bee 0.195839
+fly 0.0542815
+cardoon 0.0469
+leaf beetle, chrysomelid 0.0427139
+weevil 0.0381774
+bee 0.771982
+fly 0.109676
+weevil 0.0862656
+leaf beetle, chrysomelid 0.0174767
+long-horned beetle, longicorn, longicorn beetle 0.00379553
+ant, emmet, pismire 0.00356727
+bee 0.873097
+fly 0.0672167
+leaf beetle, chrysomelid 0.019265
+admiral 0.00814099
+cardoon 0.0077811
+long-horned beetle, longicorn, longicorn beetle 0.00423736
+bee 0.845586
+fly 0.0441
+rapeseed 0.0289275
+daisy 0.0208504
+ladybug, ladybeetle, lady beetle, ladybird, ladybird beetle 0.0177478
+long-horned beetle, longicorn, longicorn beetle 0.00820019
+bee 0.540024
+fly 0.176587
+ant, emmet, pismire 0.0898944
+lacewing, lacewing fly 0.0617903
+leaf beetle, chrysomelid 0.0198974
+ladybug, ladybeetle, lady beetle, ladybird, ladybird beetle 0.0194974
+bee 0.77454
+leaf beetle, chrysomelid 0.0955203
+long-horned beetle, longicorn, longicorn beetle 0.0459582
+fly 0.0439192
+ground beetle, carabid beetle 0.0139001
+weevil 0.00648938
+bee 0.998959
+fly 0.000937943
+ladybug, ladybeetle, lady beetle, ladybird, ladybird beetle 4.36341e-05
+hummingbird 4.32113e-05
+cardoon 1.17462e-05
+admiral 4.66956e-06
