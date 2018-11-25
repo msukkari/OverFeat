@@ -11,6 +11,9 @@ for x in content:
         filtered_list.append(x)
 
 content = filtered_list
+with open ('./ouput.txt', 'w') as f:
+    for x in content:
+        f.write(str(x) + '\n')
 print('content', content)
 total = len(content)
 output = [x.split()[0] for x in content]
