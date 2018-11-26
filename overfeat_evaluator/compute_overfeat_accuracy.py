@@ -1,4 +1,4 @@
-with open('./ouput.txt') as f:
+with open('./ouput2_images_tiger_cat.txt') as f:
     content = f.readlines()
 content = [x.strip() for x in content]
 
@@ -16,9 +16,10 @@ with open ('./ouput.txt', 'w') as f:
         f.write(str(x) + '\n')
 print('content', content)
 total = len(content)
-output = [x.split()[0] for x in content]
-print(output)
-correctness = [x == 'bee' for x in output]
+#output = [x.split()[0] for x in content]
+#print(output)
+#correctness = [x == 'bee' for x in output]
+correctness = ['tiger cat' in x for x in content]
 print('correctness', correctness)
 accuracy = 0
 
