@@ -1,0 +1,3 @@
+/home/michael/OverFeat/src/TH/build/CMakeFiles/rebuild_cache.dir
+/home/michael/OverFeat/src/TH/build/CMakeFiles/TH.dir
+/home/michael/OverFeat/src/TH/build/CMakeFiles/edit_cache.dir

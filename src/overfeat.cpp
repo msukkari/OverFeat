@@ -107,8 +107,8 @@ namespace overfeat {
   }
     
   #include FPROP_FILE
-  THTensor* fprop(THTensor* input) {
-    return fprop1(input, net_idx_g);
+  THTensor* fprop(THTensor* input, int mask_layer) {
+    return fprop1(input, net_idx_g, mask_layer);
   }
 
 }

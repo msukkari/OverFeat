@@ -20,16 +20,23 @@ int main(int argc, char* argv[]) {
     fprintf(stderr, "Missing argument : network idx\n");
     exit(0);
   }
+  if (argc < 5) {
+      fprintf(stderr, "Missing argument : mask layer\n");
+      exit(0);
+  }
   int nTopClasses = atoi(argv[2]);
   int net_idx = atoi(argv[3]);
+  int mask_layer = atoi(argv[4]);
   int feature_layer;
   if (nTopClasses <= 0) {
-    if (argc < 5) {
+    if (argc < 6) {
       fprintf(stderr, "Missing argument : output feature layer\n");
       exit(0);
     } 
     feature_layer = atoi(argv[4]);
   }
+
+  cout << "mask layer: " << mask_layer << endl;
 
   // initializes overfeat
   cout << "INIT OVERFEAT" << endl;
@@ -68,7 +75,7 @@ int main(int argc, char* argv[]) {
 	          data[s0*c + s1*i + s2*j] = data_raw[sr0*c + (i+yoffset)*sr1 + (j+xoffset)*sr2];
       
       // classification
-      THTensor* output = overfeat::fprop(input);
+      THTensor* output = overfeat::fprop(input, mask_layer);
       if ((output->size[1] != 1) || (output->size[2] != 1)) {
 	      cerr << "Can only determine class if the output is 1x1. Reduce input size" << endl;
 	      exit(0);
@@ -127,7 +134,7 @@ int main(int argc, char* argv[]) {
     else {// if nTopClasses < 0, we output the features
 
       // extract features
-      THTensor* output = overfeat::fprop(input_raw);
+      THTensor* output = overfeat::fprop(input_raw, mask_layer);
 
       // print output
       THTensor* features = overfeat::get_output(feature_layer);

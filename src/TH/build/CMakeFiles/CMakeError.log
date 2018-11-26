@@ -1,0 +1,220 @@
+Performing C SOURCE FILE Test C_HAS_SSE3_1 failed with the following output:
+Change Dir: /home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c6355/fast"
+make[2]: Entering directory '/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c6355.dir/build.make CMakeFiles/cmTC_c6355.dir/build
+make[3]: Entering directory '/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6355.dir/src.c.o
+/usr/bin/gcc   -fopenmp -DC_HAS_SSE3_1   -o CMakeFiles/cmTC_c6355.dir/src.c.o   -c /home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp/src.c
+In file included from /home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp/src.c:2:0:
+/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/usr/lib/gcc/x86_64-linux-gnu/7/include/pmmintrin.h:110:1: error: inlining failed in call to always_inline ‘_mm_lddqu_si128’: target specific option mismatch
+ _mm_lddqu_si128 (__m128i const *__P)
+ ^~~~~~~~~~~~~~~
+/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp/src.c:8:7: note: called from here
+     a = _mm_lddqu_si128( (const __m128i*)vals );
+     ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+CMakeFiles/cmTC_c6355.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c6355.dir/src.c.o' failed
+make[3]: *** [CMakeFiles/cmTC_c6355.dir/src.c.o] Error 1
+make[3]: Leaving directory '/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c6355/fast' failed
+make[2]: *** [cmTC_c6355/fast] Error 2
+make[2]: Leaving directory '/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+  #include <pmmintrin.h>
+
+  int main( )
+  {
+    const int vals[4] = {0,0,0,0};
+    __m128i a;
+    a = _mm_lddqu_si128( (const __m128i*)vals );
+    return 0;
+  }
+Performing C SOURCE FILE Test C_HAS_SSE4_1_1 failed with the following output:
+Change Dir: /home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_89135/fast"
+make[2]: Entering directory '/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_89135.dir/build.make CMakeFiles/cmTC_89135.dir/build
+make[3]: Entering directory '/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89135.dir/src.c.o
+/usr/bin/gcc   -fopenmp -DC_HAS_SSE4_1_1   -o CMakeFiles/cmTC_89135.dir/src.c.o   -c /home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp/src.c
+In file included from /home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp/src.c:2:0:
+/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/usr/lib/gcc/x86_64-linux-gnu/7/include/smmintrin.h:282:1: error: inlining failed in call to always_inline ‘_mm_max_epi8’: target specific option mismatch
+ _mm_max_epi8 (__m128i __X, __m128i __Y)
+ ^~~~~~~~~~~~
+/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp/src.c:7:13: note: called from here
+     __m128i res = _mm_max_epi8(a, b);
+             ^~~
+CMakeFiles/cmTC_89135.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_89135.dir/src.c.o' failed
+make[3]: *** [CMakeFiles/cmTC_89135.dir/src.c.o] Error 1
+make[3]: Leaving directory '/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_89135/fast' failed
+make[2]: *** [cmTC_89135/fast] Error 2
+make[2]: Leaving directory '/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+  #include <smmintrin.h>
+
+  int main ()
+  {
+    __m128i a, b;
+    __m128i res = _mm_max_epi8(a, b);
+
+    return 0;
+  }
+
+Performing C SOURCE FILE Test C_HAS_SSE4_2_1 failed with the following output:
+Change Dir: /home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_403b4/fast"
+make[2]: Entering directory '/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_403b4.dir/build.make CMakeFiles/cmTC_403b4.dir/build
+make[3]: Entering directory '/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_403b4.dir/src.c.o
+/usr/bin/gcc   -fopenmp -DC_HAS_SSE4_2_1   -o CMakeFiles/cmTC_403b4.dir/src.c.o   -c /home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp/src.c
+In file included from /usr/lib/gcc/x86_64-linux-gnu/7/include/nmmintrin.h:31:0,
+                 from /home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp/src.c:2:
+/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/usr/lib/gcc/x86_64-linux-gnu/7/include/smmintrin.h:796:1: error: inlining failed in call to always_inline ‘_mm_cmpgt_epi64’: target specific option mismatch
+ _mm_cmpgt_epi64 (__m128i __X, __m128i __Y)
+ ^~~~~~~~~~~~~~~
+/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp/src.c:7:7: note: called from here
+     c = _mm_cmpgt_epi64(a, b);
+     ~~^~~~~~~~~~~~~~~~~~~~~~~
+CMakeFiles/cmTC_403b4.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_403b4.dir/src.c.o' failed
+make[3]: *** [CMakeFiles/cmTC_403b4.dir/src.c.o] Error 1
+make[3]: Leaving directory '/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_403b4/fast' failed
+make[2]: *** [cmTC_403b4/fast] Error 2
+make[2]: Leaving directory '/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+  #include <nmmintrin.h>
+
+  int main()
+  {
+    __m128i a, b, c;
+    c = _mm_cmpgt_epi64(a, b);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test CXX_HAS_SSE3_1 failed with the following output:
+Change Dir: /home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_469e0/fast"
+make[2]: Entering directory '/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_469e0.dir/build.make CMakeFiles/cmTC_469e0.dir/build
+make[3]: Entering directory '/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_469e0.dir/src.c.o
+/usr/bin/gcc   -fopenmp -DCXX_HAS_SSE3_1   -o CMakeFiles/cmTC_469e0.dir/src.c.o   -c /home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp/src.c
+In file included from /home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp/src.c:2:0:
+/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/usr/lib/gcc/x86_64-linux-gnu/7/include/pmmintrin.h:110:1: error: inlining failed in call to always_inline ‘_mm_lddqu_si128’: target specific option mismatch
+ _mm_lddqu_si128 (__m128i const *__P)
+ ^~~~~~~~~~~~~~~
+/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp/src.c:8:7: note: called from here
+     a = _mm_lddqu_si128( (const __m128i*)vals );
+     ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+CMakeFiles/cmTC_469e0.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_469e0.dir/src.c.o' failed
+make[3]: *** [CMakeFiles/cmTC_469e0.dir/src.c.o] Error 1
+make[3]: Leaving directory '/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_469e0/fast' failed
+make[2]: *** [cmTC_469e0/fast] Error 2
+make[2]: Leaving directory '/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+  #include <pmmintrin.h>
+
+  int main( )
+  {
+    const int vals[4] = {0,0,0,0};
+    __m128i a;
+    a = _mm_lddqu_si128( (const __m128i*)vals );
+    return 0;
+  }
+Performing C SOURCE FILE Test CXX_HAS_SSE4_1_1 failed with the following output:
+Change Dir: /home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_83567/fast"
+make[2]: Entering directory '/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_83567.dir/build.make CMakeFiles/cmTC_83567.dir/build
+make[3]: Entering directory '/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83567.dir/src.c.o
+/usr/bin/gcc   -fopenmp -DCXX_HAS_SSE4_1_1   -o CMakeFiles/cmTC_83567.dir/src.c.o   -c /home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp/src.c
+In file included from /home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp/src.c:2:0:
+/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/usr/lib/gcc/x86_64-linux-gnu/7/include/smmintrin.h:282:1: error: inlining failed in call to always_inline ‘_mm_max_epi8’: target specific option mismatch
+ _mm_max_epi8 (__m128i __X, __m128i __Y)
+ ^~~~~~~~~~~~
+/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp/src.c:7:13: note: called from here
+     __m128i res = _mm_max_epi8(a, b);
+             ^~~
+CMakeFiles/cmTC_83567.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_83567.dir/src.c.o' failed
+make[3]: *** [CMakeFiles/cmTC_83567.dir/src.c.o] Error 1
+make[3]: Leaving directory '/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_83567/fast' failed
+make[2]: *** [cmTC_83567/fast] Error 2
+make[2]: Leaving directory '/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+  #include <smmintrin.h>
+
+  int main ()
+  {
+    __m128i a, b;
+    __m128i res = _mm_max_epi8(a, b);
+
+    return 0;
+  }
+
+Performing C SOURCE FILE Test CXX_HAS_SSE4_2_1 failed with the following output:
+Change Dir: /home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b5ff7/fast"
+make[2]: Entering directory '/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b5ff7.dir/build.make CMakeFiles/cmTC_b5ff7.dir/build
+make[3]: Entering directory '/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5ff7.dir/src.c.o
+/usr/bin/gcc   -fopenmp -DCXX_HAS_SSE4_2_1   -o CMakeFiles/cmTC_b5ff7.dir/src.c.o   -c /home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp/src.c
+In file included from /usr/lib/gcc/x86_64-linux-gnu/7/include/nmmintrin.h:31:0,
+                 from /home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp/src.c:2:
+/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/usr/lib/gcc/x86_64-linux-gnu/7/include/smmintrin.h:796:1: error: inlining failed in call to always_inline ‘_mm_cmpgt_epi64’: target specific option mismatch
+ _mm_cmpgt_epi64 (__m128i __X, __m128i __Y)
+ ^~~~~~~~~~~~~~~
+/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp/src.c:7:7: note: called from here
+     c = _mm_cmpgt_epi64(a, b);
+     ~~^~~~~~~~~~~~~~~~~~~~~~~
+CMakeFiles/cmTC_b5ff7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b5ff7.dir/src.c.o' failed
+make[3]: *** [CMakeFiles/cmTC_b5ff7.dir/src.c.o] Error 1
+make[3]: Leaving directory '/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b5ff7/fast' failed
+make[2]: *** [cmTC_b5ff7/fast] Error 2
+make[2]: Leaving directory '/home/michael/OverFeat/src/TH/build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+  #include <nmmintrin.h>
+
+  int main()
+  {
+    __m128i a, b, c;
+    c = _mm_cmpgt_epi64(a, b);
+    return 0;
+  }
+
