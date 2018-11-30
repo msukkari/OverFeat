@@ -47,6 +47,8 @@ THTensor* fprop1(THTensor* input, int net_idx, int zero_layer,
     };
 
     if(zero_layer > 0) {
+        srand(time(NULL));
+
         string key = to_string(net_idx) + to_string(zero_layer);
         if(layer_weight_map.count(key) == 0) {
             cout << "Invalid key given to layer_weight_map" << endl;
