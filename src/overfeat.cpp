@@ -4,6 +4,12 @@
 #include <cstdlib>
 #include <iostream>
 #include <algorithm>
+#include <stdio.h>      /* printf, scanf, puts, NULL */
+#include <stdlib.h>     /* srand, rand */
+#include <time.h>       /* time */
+#include <string>
+#include <unordered_map>
+#include <unordered_set>
 #include "overfeat.hpp"
 using namespace std;
 
@@ -107,8 +113,8 @@ namespace overfeat {
   }
     
   #include FPROP_FILE
-  THTensor* fprop(THTensor* input, int mask_layer) {
-    return fprop1(input, net_idx_g, mask_layer);
+  THTensor* fprop(THTensor* input, int zero_layer, int zero_perc, int mask_layer) {
+    return fprop1(input, net_idx_g, zero_layer, zero_perc, mask_layer);
   }
 
 }
