@@ -1,0 +1,169 @@
+confidence,layer,dropout,output
+0.862415,1,0,bee 
+0.834405,1,5,bee 
+0.461735,1,10,leaf beetle chrysomelid 
+0.397275,1,15,garden spider Aranea diademata 
+0.173069,1,20,pineapple ananas 
+0.173632,1,25,garden spider Aranea diademata 
+0.136329,1,30,garden spider Aranea diademata 
+0.107796,1,35,spider web spider's web 
+0.171571,1,40,dragonfly darning needle devil's darning needle sewing needle snake feeder snake doctor mosquito hawk skeeter hawk 
+0.338729,1,45,dragonfly darning needle devil's darning needle sewing needle snake feeder snake doctor mosquito hawk skeeter hawk 
+0.151017,1,50,peacock 
+0.091381,1,55,brain coral 
+0.157073,1,60,brain coral 
+0.659456,1,65,spider web spider's web 
+0.294486,1,70,spider web spider's web 
+0.303054,1,75,vault 
+0.130049,1,80,window screen 
+0.515869,1,85,armadillo 
+0.188853,1,90,stole 
+0.182043,1,95,shopping cart 
+0.00119091,1,100,ice lolly lolly lollipop popsicle 
+0.862415,2,0,bee 
+0.838452,2,5,bee 
+0.801722,2,10,bee 
+0.659872,2,15,bee 
+0.724983,2,20,bee 
+0.722363,2,25,bee 
+0.555941,2,30,bee 
+0.355162,2,35,bee 
+0.36281,2,40,bee 
+0.41798,2,45,bee 
+0.296243,2,50,bee 
+0.205816,2,55,bee 
+0.12657,2,60,long-horned beetle longicorn longicorn beetle 
+0.176647,2,65,long-horned beetle longicorn longicorn beetle 
+0.100243,2,70,long-horned beetle longicorn longicorn beetle 
+0.014512,2,75,daisy 
+0.0119996,2,80,daisy 
+0.00498147,2,85,bee 
+0.00364023,2,90,bee 
+0.00307756,2,95,acorn 
+0.0913464,2,100,paintbrush 
+0.862415,3,0,bee 
+0.888067,3,5,bee 
+0.770951,3,10,bee 
+0.795788,3,15,bee 
+0.847152,3,20,bee 
+0.906402,3,25,bee 
+0.931703,3,30,bee 
+0.986595,3,35,bee 
+0.948969,3,40,bee 
+0.931681,3,45,bee 
+0.91311,3,50,bee 
+0.91659,3,55,bee 
+0.897263,3,60,bee 
+0.0613563,3,65,umbrella 
+0.067682,3,70,paintbrush 
+0.0913464,3,75,paintbrush 
+0.0913464,3,80,paintbrush 
+0.0913464,3,85,paintbrush 
+0.0913464,3,90,paintbrush 
+0.0913464,3,95,paintbrush 
+0.00119091,3,100,ice lolly lolly lollipop popsicle 
+0.862415,4,0,bee 
+0.781783,4,5,bee 
+0.697021,4,10,bee 
+0.561428,4,15,bee 
+0.508917,4,20,bee 
+0.368293,4,25,bee 
+0.32779,4,30,bee 
+0.432289,4,35,bee 
+0.395178,4,40,bee 
+0.260989,4,45,bee 
+0.181454,4,50,bee 
+0.0884641,4,55,bee 
+0.0307331,4,60,bee 
+0.00874482,4,65,bee 
+0.00154309,4,70,mantis mantid 
+0.00120691,4,75,stretcher 
+0.00119091,4,80,ice lolly lolly lollipop popsicle 
+0.00119091,4,85,ice lolly lolly lollipop popsicle 
+0.00119091,4,90,ice lolly lolly lollipop popsicle 
+0.00119091,4,95,ice lolly lolly lollipop popsicle 
+0.0913464,4,100,paintbrush 
+0.862415,5,0,bee 
+0.848402,5,5,bee 
+0.829899,5,10,bee 
+0.81658,5,15,bee 
+0.784986,5,20,bee 
+0.800478,5,25,bee 
+0.853238,5,30,bee 
+0.763931,5,35,bee 
+0.815354,5,40,bee 
+0.844016,5,45,bee 
+0.80872,5,50,bee 
+0.884762,5,55,bee 
+0.910612,5,60,bee 
+0.85469,5,65,bee 
+0.62443,5,70,bee 
+0.0645653,5,75,bee 
+0.0663783,5,80,plunger plumber's helper 
+0.0851604,5,85,paintbrush 
+0.0913464,5,90,paintbrush 
+0.0913464,5,95,paintbrush 
+0.00119091,5,100,ice lolly lolly lollipop popsicle 
+0.862415,6,0,bee 
+0.837785,6,5,bee 
+0.767084,6,10,bee 
+0.694372,6,15,bee 
+0.612853,6,20,bee 
+0.58883,6,25,bee 
+0.561635,6,30,bee 
+0.557822,6,35,bee 
+0.534454,6,40,bee 
+0.502724,6,45,bee 
+0.482547,6,50,bee 
+0.392746,6,55,bee 
+0.33249,6,60,bee 
+0.245347,6,65,bee 
+0.181599,6,70,bee 
+0.0985679,6,75,bee 
+0.0323601,6,80,bee 
+0.0120444,6,85,bee 
+0.00369394,6,90,bee 
+0.00162132,6,95,bee 
+0.0913464,6,100,paintbrush 
+0.862415,7,0,bee 
+0.846421,7,5,bee 
+0.825374,7,10,bee 
+0.793371,7,15,bee 
+0.812957,7,20,bee 
+0.781498,7,25,bee 
+0.771106,7,30,bee 
+0.73495,7,35,bee 
+0.692028,7,40,bee 
+0.709654,7,45,bee 
+0.711955,7,50,bee 
+0.585008,7,55,bee 
+0.561275,7,60,bee 
+0.549724,7,65,bee 
+0.509655,7,70,bee 
+0.479378,7,75,bee 
+0.393145,7,80,bee 
+0.200138,7,85,bee 
+0.0407297,7,90,bee 
+0.00885359,7,95,ant emmet pismire 
+0.00119091,7,100,ice lolly lolly lollipop popsicle 
+0.862415,8,0,bee 
+0.859433,8,5,bee 
+0.826634,8,10,bee 
+0.655433,8,15,bee 
+0.739706,8,20,bee 
+0.733524,8,25,bee 
+0.451692,8,30,bee 
+0.38798,8,35,bee 
+0.414006,8,40,bee 
+0.354029,8,45,bee 
+0.374679,8,50,bee 
+0.268652,8,55,bee 
+0.172108,8,60,long-horned beetle longicorn longicorn beetle 
+0.142094,8,65,long-horned beetle longicorn longicorn beetle 
+0.189665,8,70,long-horned beetle longicorn longicorn beetle 
+0.0855392,8,75,weevil 
+0.0491966,8,80,bee 
+0.049753,8,85,bee 
+0.0120474,8,90,weevil 
+0.00446958,8,95,weevil 
+0.001,8,100,dumbbell 
