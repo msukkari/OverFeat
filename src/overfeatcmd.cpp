@@ -90,7 +90,7 @@ int main(int argc, char* argv[]) {
       
       // print output
       for (int i = 0; i < nTopClasses; ++i) {
-	      cout << top_classes[i].first << " " << top_classes[i].second << zero_layer << zero_perc << endl;
+	      cout << top_classes[i].first << " " << top_classes[i].second << " " << zero_layer << " " << zero_perc << endl;
       }
 
       /*
