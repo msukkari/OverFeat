@@ -4,12 +4,14 @@
 #include <cstdlib>
 #include <iostream>
 #include <algorithm>
+#include <fstream>
 #include <stdio.h>      /* printf, scanf, puts, NULL */
 #include <stdlib.h>     /* srand, rand */
 #include <time.h>       /* time */
 #include <string>
 #include <unordered_map>
 #include <unordered_set>
+#include "tools/ppm.hpp"
 #include "overfeat.hpp"
 using namespace std;
 
@@ -68,6 +70,53 @@ namespace overfeat {
     for (int i = 0; i < nModules(net_idx); ++i)
       outputs[i] = THTensor_(new)();
     init1(net_idx);
+  }
+
+  void saveWeight(int weight_number, int filter_number, int depth, string file_name) {
+    auto w = weights[weight_number];
+    writeFilterToPPM(w, filter_number, depth, file_name);
+  }
+
+  void writeFilterToPPM(THTensor* weight, int filter, int depth, string file_name) {
+    assert(weight->nDimension == 4);
+
+    auto data = THTensor_(data)(weight);
+
+    int d1 = weight->size[0]; // # filters
+    int d2 = weight->size[1]; // filter depth
+    int d3 = weight->size[2]; // filter width
+    int d4 = weight->size[3]; // filter height
+
+    ofstream output_file;
+    output_file.open(file_name);
+
+    output_file << "P3" << endl;
+    output_file << d3 << " " << d4 << endl;
+    output_file << 100 << endl;
+    
+    int n = (filter * d2 * d3 * d4) + (depth * d3 * d4); // compute starting point to index data
+    for (int h = 0; h < d4; h++) {
+      for(int w = 0; w < d3; w++) {
+        bool pos = data[n++] > 0;
+        float abs_cur = abs(data[n++]);
+        int color = min(255, int(abs_cur * 255));
+
+        // blue color for positive, red color for negative
+        if(pos) output_file << "0 0 " << color << "\t";
+        else output_file << color << " 0 0\t";
+      }
+      output_file << endl;
+    }
+  }
+
+  void printOutputDimensions(int index, bool is_output) {
+    auto t = is_output ? outputs[index] : weights[index];
+
+    cout << "Printing info about " << (is_output ? "output " : "weight ") << index << endl;
+    cout << "Dimensions: " << t->nDimension << endl;
+    for (int i = 0; i < t->nDimension; i++) {
+      cout << "dim " << i << ": " << t->size[i] << endl;
+    } 
   }
 
   void free() {

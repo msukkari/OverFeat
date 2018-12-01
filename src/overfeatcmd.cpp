@@ -93,6 +93,12 @@ int main(int argc, char* argv[]) {
 	      cout << top_classes[i].first << " " << top_classes[i].second << endl;
       }
 
+      //overfeat::saveWeight(1, "test");
+      overfeat::printOutputDimensions(0, true);
+      overfeat::printOutputDimensions(1, false);
+
+      overfeat::saveWeight(1, 50, 1, "weight_vis_test.ppm");
+      
       /*
       int layer_to_save = 3;
 

@@ -25,6 +25,12 @@ namespace overfeat {
   // This function computes the soft max, transforming the output of the network
   //  input probabilities. See README for more details
   void soft_max(THTensor* input, THTensor* output);
+
+  void saveWeight(int weight_number, int filter_number, int depth, std::string file_name);
+
+  void writeFilterToPPM(THTensor* weight, int filter, int depth, std::string file_name);
+
+  void printOutputDimensions(int index, bool is_output);
   
   // Returns the number of layers of the network
   int get_n_layers();
