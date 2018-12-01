@@ -1,357 +1,486 @@
-bee 0.862415 1 0
-bee 0.834405 1 5
-leaf beetle, chrysomelid 0.461735 1 10
-garden spider, Aranea diademata 0.397275 1 15
-pineapple, ananas 0.173069 1 20
-garden spider, Aranea diademata 0.173632 1 25
-garden spider, Aranea diademata 0.136329 1 30
-spider web, spider's web 0.107796 1 35
-dragonfly, darning needle, devil's darning needle, sewing needle, snake feeder, snake doctor, mosquito hawk, skeeter hawk 0.171571 1 40
-dragonfly, darning needle, devil's darning needle, sewing needle, snake feeder, snake doctor, mosquito hawk, skeeter hawk 0.338729 1 45
-peacock 0.151017 1 50
-brain coral 0.091381 1 55
-brain coral 0.157073 1 60
-spider web, spider's web 0.659456 1 65
-spider web, spider's web 0.294486 1 70
-vault 0.303054 1 75
-window screen 0.130049 1 80
-armadillo 0.515869 1 85
-stole 0.188853 1 90
-shopping cart 0.182043 1 95
-ice lolly, lolly, lollipop, popsicle 0.00119091 1 100
-bee 0.862415 2 0
-bee 0.838452 2 5
-bee 0.801722 2 10
-bee 0.659872 2 15
-bee 0.724983 2 20
-bee 0.722363 2 25
-bee 0.555941 2 30
-bee 0.355162 2 35
-bee 0.36281 2 40
-bee 0.41798 2 45
-bee 0.296243 2 50
-bee 0.205816 2 55
-long-horned beetle, longicorn, longicorn beetle 0.12657 2 60
-long-horned beetle, longicorn, longicorn beetle 0.176647 2 65
-long-horned beetle, longicorn, longicorn beetle 0.100243 2 70
-daisy 0.014512 2 75
-daisy 0.0119996 2 80
-bee 0.00498147 2 85
-bee 0.00364023 2 90
-acorn 0.00307756 2 95
-paintbrush 0.0913464 2 100
-bee 0.862415 3 0
-bee 0.888067 3 5
-bee 0.770951 3 10
-bee 0.795788 3 15
-bee 0.847152 3 20
-bee 0.906402 3 25
-bee 0.931703 3 30
-bee 0.986595 3 35
-bee 0.948969 3 40
-bee 0.931681 3 45
-bee 0.91311 3 50
-bee 0.91659 3 55
-bee 0.897263 3 60
-umbrella 0.0613563 3 65
-paintbrush 0.067682 3 70
-paintbrush 0.0913464 3 75
-paintbrush 0.0913464 3 80
-paintbrush 0.0913464 3 85
-paintbrush 0.0913464 3 90
-paintbrush 0.0913464 3 95
-ice lolly, lolly, lollipop, popsicle 0.00119091 3 100
-bee 0.862415 4 0
-bee 0.781783 4 5
-bee 0.697021 4 10
-bee 0.561428 4 15
-bee 0.508917 4 20
-bee 0.368293 4 25
-bee 0.32779 4 30
-bee 0.432289 4 35
-bee 0.395178 4 40
-bee 0.260989 4 45
-bee 0.181454 4 50
-bee 0.0884641 4 55
-bee 0.0307331 4 60
-bee 0.00874482 4 65
-mantis, mantid 0.00154309 4 70
-stretcher 0.00120691 4 75
-ice lolly, lolly, lollipop, popsicle 0.00119091 4 80
-ice lolly, lolly, lollipop, popsicle 0.00119091 4 85
-ice lolly, lolly, lollipop, popsicle 0.00119091 4 90
-ice lolly, lolly, lollipop, popsicle 0.00119091 4 95
-paintbrush 0.0913464 4 100
-bee 0.862415 5 0
-bee 0.848402 5 5
-bee 0.829899 5 10
-bee 0.81658 5 15
-bee 0.784986 5 20
-bee 0.800478 5 25
-bee 0.853238 5 30
-bee 0.763931 5 35
-bee 0.815354 5 40
-bee 0.844016 5 45
-bee 0.80872 5 50
-bee 0.884762 5 55
-bee 0.910612 5 60
-bee 0.85469 5 65
-bee 0.62443 5 70
-bee 0.0645653 5 75
-plunger, plumber's helper 0.0663783 5 80
-paintbrush 0.0851604 5 85
-paintbrush 0.0913464 5 90
-paintbrush 0.0913464 5 95
-ice lolly, lolly, lollipop, popsicle 0.00119091 5 100
-bee 0.862415 6 0
-bee 0.837785 6 5
-bee 0.767084 6 10
-bee 0.694372 6 15
-bee 0.612853 6 20
-bee 0.58883 6 25
-bee 0.561635 6 30
-bee 0.557822 6 35
-bee 0.534454 6 40
-bee 0.502724 6 45
-bee 0.482547 6 50
-bee 0.392746 6 55
-bee 0.33249 6 60
-bee 0.245347 6 65
-bee 0.181599 6 70
-bee 0.0985679 6 75
-bee 0.0323601 6 80
-bee 0.0120444 6 85
-bee 0.00369394 6 90
-bee 0.00162132 6 95
-paintbrush 0.0913464 6 100
-bee 0.862415 7 0
-bee 0.846421 7 5
-bee 0.825374 7 10
-bee 0.793371 7 15
-bee 0.812957 7 20
-bee 0.781498 7 25
-bee 0.771106 7 30
-bee 0.73495 7 35
-bee 0.692028 7 40
-bee 0.709654 7 45
-bee 0.711955 7 50
-bee 0.585008 7 55
-bee 0.561275 7 60
-bee 0.549724 7 65
-bee 0.509655 7 70
-bee 0.479378 7 75
-bee 0.393145 7 80
-bee 0.200138 7 85
-bee 0.0407297 7 90
-ant, emmet, pismire 0.00885359 7 95
-ice lolly, lolly, lollipop, popsicle 0.00119091 7 100
-bee 0.862415 8 0
-bee 0.859433 8 5
-bee 0.826634 8 10
-bee 0.655433 8 15
-bee 0.739706 8 20
-bee 0.733524 8 25
-bee 0.451692 8 30
-bee 0.38798 8 35
-bee 0.414006 8 40
-bee 0.354029 8 45
-bee 0.374679 8 50
-bee 0.268652 8 55
-long-horned beetle, longicorn, longicorn beetle 0.172108 8 60
-long-horned beetle, longicorn, longicorn beetle 0.142094 8 65
-long-horned beetle, longicorn, longicorn beetle 0.189665 8 70
-weevil 0.0855392 8 75
-bee 0.0491966 8 80
-bee 0.049753 8 85
-weevil 0.0120474 8 90
-weevil 0.00446958 8 95
-dumbbell 0.001 8 100
-bee 0.98475 1 0
-bee 0.965507 1 5
-bee 0.981317 1 10
-bee 0.619599 1 15
-garden spider, Aranea diademata 0.387525 1 20
-garden spider, Aranea diademata 0.164081 1 25
-pillow 0.257588 1 30
-jigsaw puzzle 0.21109 1 35
-sock 0.218883 1 40
-pillow 0.369374 1 45
-pillow 0.411654 1 50
-leafhopper 0.144499 1 55
-damselfly 0.330987 1 60
-crossword puzzle, crossword 0.13998 1 65
-rule, ruler 0.269521 1 70
-oscilloscope, scope, cathode-ray oscilloscope, CRO 0.315673 1 75
-window screen 0.218749 1 80
-window screen 0.222577 1 85
-window screen 0.480311 1 90
-window screen 0.259696 1 95
-water bottle 0.0501774 1 100
-bee 0.98475 2 0
-bee 0.985908 2 5
-bee 0.985423 2 10
-bee 0.981648 2 15
-bee 0.989971 2 20
-bee 0.995062 2 25
-bee 0.994074 2 30
-bee 0.948502 2 35
-bee 0.92173 2 40
-bee 0.922951 2 45
-bee 0.917895 2 50
-bee 0.983689 2 55
-bee 0.820312 2 60
-honeycomb 0.152861 2 65
-jigsaw puzzle 0.444155 2 70
-shower curtain 0.353083 2 75
-jigsaw puzzle 0.394135 2 80
-book jacket, dust cover, dust jacket, dust wrapper 0.587184 2 85
-book jacket, dust cover, dust jacket, dust wrapper 0.55472 2 90
-water bottle 0.0507713 2 95
-velvet 0.00121496 2 100
-bee 0.98475 3 0
-bee 0.988133 3 5
-bee 0.983945 3 10
-bee 0.948157 3 15
-bee 0.933386 3 20
-bee 0.934243 3 25
-bee 0.884528 3 30
-bee 0.877059 3 35
-bee 0.783887 3 40
-bee 0.862762 3 45
-bee 0.91962 3 50
-bee 0.766679 3 55
-bee 0.409016 3 60
-bee 0.130381 3 65
-black and gold garden spider, Argiope aurantia 0.0531022 3 70
-spider web, spider's web 0.0079631 3 75
-wolf spider, hunting spider 0.00127857 3 80
-velvet 0.00121496 3 85
-velvet 0.00121496 3 90
-velvet 0.00121496 3 95
-water bottle 0.0530981 3 100
-bee 0.98475 4 0
-bee 0.987852 4 5
-bee 0.983728 4 10
-bee 0.985292 4 15
-bee 0.981199 4 20
-bee 0.965322 4 25
-bee 0.966069 4 30
-bee 0.962944 4 35
-bee 0.948166 4 40
-bee 0.974 4 45
-bee 0.968451 4 50
-bee 0.890847 4 55
-bee 0.271844 4 60
-water bottle 0.0481758 4 65
-water bottle 0.0550997 4 70
-water bottle 0.0508022 4 75
-water bottle 0.0508334 4 80
-water bottle 0.0527223 4 85
-water bottle 0.0530981 4 90
-water bottle 0.0530981 4 95
-velvet 0.00121496 4 100
-bee 0.98475 5 0
-bee 0.983147 5 5
-bee 0.985383 5 10
-bee 0.97139 5 15
-bee 0.956601 5 20
-bee 0.94136 5 25
-bee 0.95183 5 30
-bee 0.904296 5 35
-bee 0.847714 5 40
-bee 0.793209 5 45
-bee 0.776503 5 50
-bee 0.707679 5 55
-bee 0.717586 5 60
-bee 0.508491 5 65
-bee 0.12098 5 70
-bee 0.0355796 5 75
-ladybug, ladybeetle, lady beetle, ladybird, ladybird beetle 0.00353456 5 80
-velvet 0.00123161 5 85
-velvet 0.00121496 5 90
-velvet 0.00121496 5 95
-water bottle 0.0530981 5 100
-bee 0.98475 6 0
-bee 0.97799 6 5
-bee 0.980465 6 10
-bee 0.984617 6 15
-bee 0.981795 6 20
-bee 0.981382 6 25
-bee 0.972931 6 30
-bee 0.973642 6 35
-bee 0.974925 6 40
-bee 0.98471 6 45
-bee 0.976894 6 50
-bee 0.964842 6 55
-bee 0.966251 6 60
-bee 0.850546 6 65
-bee 0.245289 6 70
-hook, claw 0.0319526 6 75
-plunger, plumber's helper 0.0414944 6 80
-water bottle 0.0517627 6 85
-water bottle 0.0543264 6 90
-water bottle 0.0529203 6 95
-velvet 0.00121496 6 100
-bee 0.98475 7 0
-bee 0.97866 7 5
-bee 0.975097 7 10
-bee 0.970493 7 15
-bee 0.950746 7 20
-bee 0.932766 7 25
-bee 0.928641 7 30
-bee 0.933402 7 35
-bee 0.917824 7 40
-bee 0.918362 7 45
-bee 0.893238 7 50
-bee 0.870975 7 55
-bee 0.815369 7 60
-bee 0.742177 7 65
-bee 0.609159 7 70
-bee 0.376224 7 75
-bee 0.258034 7 80
-bee 0.0933556 7 85
-bee 0.0313866 7 90
-bee 0.0052762 7 95
-water bottle 0.0530981 7 100
-bee 0.98475 8 0
-bee 0.984229 8 5
-bee 0.982792 8 10
-bee 0.983358 8 15
-bee 0.977599 8 20
-bee 0.966393 8 25
-bee 0.964969 8 30
-bee 0.94583 8 35
-bee 0.958942 8 40
-bee 0.936662 8 45
-bee 0.917252 8 50
-bee 0.903708 8 55
-bee 0.894631 8 60
-bee 0.893472 8 65
-bee 0.850825 8 70
-bee 0.794285 8 75
-bee 0.586847 8 80
-bee 0.202565 8 85
-bee 0.0362391 8 90
-ant, emmet, pismire 0.00551871 8 95
-velvet 0.00121496 8 100
-bee 0.98475 9 0
-bee 0.960846 9 5
-bee 0.951752 9 10
-bee 0.905111 9 15
-bee 0.912057 9 20
-bee 0.868107 9 25
-bee 0.8877 9 30
-bee 0.865618 9 35
-bee 0.918345 9 40
-bee 0.911275 9 45
-bee 0.775318 9 50
-bee 0.808084 9 55
-bee 0.737509 9 60
-bee 0.776581 9 65
-bee 0.504295 9 70
-bee 0.482859 9 75
-bee 0.272874 9 80
-bee 0.0657047 9 85
-fly 0.0157441 9 90
-bee 0.00530468 9 95
-dumbbell 0.001 9 100
+bee 0.86241510
+bee 0.86241510
+bee 0.86241510
+bee 0.86241510
+bee 0.86241510
+bee 0.65502715
+bee 0.70369915
+bee 0.42120315
+bee 0.79914515
+bee 0.75676115
+bee 0.405079110
+bee 0.219999110
+bee 0.89302110
+bee 0.395483110
+bee 0.845448110
+bee 0.246093115
+bee 0.178663115
+bee 0.608079115
+garden spider, Aranea diademata 0.408288115
+garden spider, Aranea diademata 0.252285115
+cauliflower 0.203384120
+garden spider, Aranea diademata 0.351402120
+acorn 0.114194120
+ant, emmet, pismire 0.129407120
+leaf beetle, chrysomelid 0.152776120
+lacewing, lacewing fly 0.114083125
+pineapple, ananas 0.194489125
+garden spider, Aranea diademata 0.274908125
+leaf beetle, chrysomelid 0.23541125
+leaf beetle, chrysomelid 0.188682125
+African chameleon, Chamaeleo chamaeleon 0.507408130
+window screen 0.413632130
+jigsaw puzzle 0.549717130
+coral reef 0.0576921130
+garden spider, Aranea diademata 0.224428130
+window screen 0.384295135
+pillow 0.0895863135
+lacewing, lacewing fly 0.268243135
+conch 0.0995955135
+jigsaw puzzle 0.159582135
+garden spider, Aranea diademata 0.0572885140
+jigsaw puzzle 0.315115140
+pineapple, ananas 0.170345140
+jigsaw puzzle 0.347705140
+cricket 0.0995724140
+wire-haired fox terrier 0.122624145
+pillow 0.169882145
+American alligator, Alligator mississipiensis 0.378081145
+brain coral 0.132879145
+window screen 0.0825016145
+jigsaw puzzle 0.583466150
+lionfish 0.119402150
+jigsaw puzzle 0.0641669150
+ant, emmet, pismire 0.0947189150
+jigsaw puzzle 0.7291150
+sea anemone, anemone 0.0911325155
+chainlink fence 0.203806155
+spider web, spider's web 0.171157155
+spider web, spider's web 0.581104155
+jigsaw puzzle 0.661898155
+African chameleon, Chamaeleo chamaeleon 0.19354160
+cardigan 0.65583160
+jigsaw puzzle 0.299104160
+chainlink fence 0.233389160
+quilt, comforter, comfort, puff 0.474797160
+quilt, comforter, comfort, puff 0.0707628165
+spider web, spider's web 0.167509165
+jigsaw puzzle 0.773187165
+jigsaw puzzle 0.280528165
+spider web, spider's web 0.640059165
+chainlink fence 0.0875841170
+spider web, spider's web 0.225454170
+jigsaw puzzle 0.574372170
+chainlink fence 0.305151170
+chainlink fence 0.806805170
+spider monkey, Ateles geoffroyi 0.093169175
+jigsaw puzzle 0.230664175
+window screen 0.501408175
+window screen 0.719684175
+common iguana, iguana, Iguana iguana 0.176161175
+stole 0.313151180
+puffer, pufferfish, blowfish, globefish 0.108109180
+African chameleon, Chamaeleo chamaeleon 0.138692180
+window screen 0.781029180
+jigsaw puzzle 0.211207180
+window screen 0.350641185
+quilt, comforter, comfort, puff 0.155035185
+window screen 0.262324185
+chainlink fence 0.266792185
+window screen 0.166882185
+spider web, spider's web 0.202556190
+jigsaw puzzle 0.0965145190
+shopping cart 0.831506190
+chainlink fence 0.0503199190
+cardigan 0.119363190
+prayer rug, prayer mat 0.184241195
+dishrag, dishcloth 0.133358195
+window screen 0.220915195
+shopping cart 0.103427195
+window screen 0.383399195
+ice lolly, lolly, lollipop, popsicle 0.001190911100
+ice lolly, lolly, lollipop, popsicle 0.001190911100
+ice lolly, lolly, lollipop, popsicle 0.001190911100
+ice lolly, lolly, lollipop, popsicle 0.001190911100
+ice lolly, lolly, lollipop, popsicle 0.001190911100
+bee 0.86241520
+bee 0.86241520
+bee 0.86241520
+bee 0.86241520
+bee 0.86241520
+bee 0.75268325
+bee 0.78345725
+bee 0.85929225
+bee 0.81468725
+bee 0.87879925
+bee 0.88205210
+bee 0.81542210
+bee 0.767763210
+bee 0.798537210
+bee 0.832797210
+bee 0.57773215
+bee 0.783214215
+bee 0.756235215
+bee 0.749564215
+bee 0.551038215
+bee 0.735978220
+bee 0.493273220
+bee 0.598838220
+bee 0.829766220
+bee 0.632505220
+bee 0.706717225
+bee 0.744696225
+bee 0.403623225
+bee 0.642249225
+bee 0.417661225
+bee 0.784649230
+bee 0.471365230
+bee 0.704589230
+bee 0.415035230
+bee 0.387632230
+bee 0.23047235
+long-horned beetle, longicorn, longicorn beetle 0.350381235
+long-horned beetle, longicorn, longicorn beetle 0.381073235
+long-horned beetle, longicorn, longicorn beetle 0.271802235
+leaf beetle, chrysomelid 0.275409235
+bee 0.438447240
+bee 0.376642240
+bee 0.488672240
+long-horned beetle, longicorn, longicorn beetle 0.332457240
+bee 0.261651240
+long-horned beetle, longicorn, longicorn beetle 0.457311245
+bee 0.488968245
+bee 0.250873245
+long-horned beetle, longicorn, longicorn beetle 0.331033245
+long-horned beetle, longicorn, longicorn beetle 0.416261245
+long-horned beetle, longicorn, longicorn beetle 0.269579250
+bee 0.290621250
+bee 0.0770827250
+bee 0.178819250
+bee 0.284528250
+bee 0.203457255
+long-horned beetle, longicorn, longicorn beetle 0.0984928255
+bee 0.264263255
+bee 0.206911255
+bee 0.207607255
+bee 0.101234260
+acorn 0.0741345260
+bee 0.0773318260
+long-horned beetle, longicorn, longicorn beetle 0.223464260
+bee 0.0889613260
+acorn 0.0560748265
+acorn 0.105615265
+long-horned beetle, longicorn, longicorn beetle 0.11124265
+long-horned beetle, longicorn, longicorn beetle 0.0744038265
+acorn 0.0776405265
+jigsaw puzzle 0.00743734270
+bee 0.0964495270
+bee 0.0307991270
+bee 0.018773270
+acorn 0.0708436270
+bee 0.0220868275
+honeycomb 0.113069275
+honeycomb 0.0113293275
+acorn 0.0667718275
+long-horned beetle, longicorn, longicorn beetle 0.0229082275
+lycaenid, lycaenid butterfly 0.0301349280
+acorn 0.00781008280
+honeycomb 0.0149282280
+acorn 0.00128909280
+bee 0.0125239280
+honeycomb 0.0273244285
+ice lolly, lolly, lollipop, popsicle 0.00119797285
+honeycomb 0.0303543285
+jigsaw puzzle 0.00702193285
+ice lolly, lolly, lollipop, popsicle 0.0012039285
+vine snake 0.00132898290
+ice lolly, lolly, lollipop, popsicle 0.00119091290
+ice lolly, lolly, lollipop, popsicle 0.00119823290
+dough 0.00122726290
+acorn 0.0031284290
+ice lolly, lolly, lollipop, popsicle 0.00119091295
+ice lolly, lolly, lollipop, popsicle 0.00119091295
+shower curtain 0.00124919295
+ice lolly, lolly, lollipop, popsicle 0.00119091295
+ice lolly, lolly, lollipop, popsicle 0.00119091295
+paintbrush 0.09134642100
+paintbrush 0.09134642100
+paintbrush 0.09134642100
+paintbrush 0.09134642100
+paintbrush 0.09134642100
+bee 0.86241530
+bee 0.86241530
+bee 0.86241530
+bee 0.86241530
+bee 0.86241530
+bee 0.77152235
+bee 0.91478135
+bee 0.90544535
+bee 0.87099235
+bee 0.84929335
+bee 0.819399310
+bee 0.818037310
+bee 0.720581310
+bee 0.835807310
+bee 0.695549310
+bee 0.862543315
+bee 0.859243315
+bee 0.624684315
+bee 0.756932315
+bee 0.862505315
+bee 0.870585320
+long-horned beetle, longicorn, longicorn beetle 0.385407320
+bee 0.841436320
+bee 0.953414320
+bee 0.549612320
+bee 0.60308325
+bee 0.949837325
+bee 0.94634325
+bee 0.442136325
+bee 0.796423325
+bee 0.785891330
+bee 0.881073330
+bee 0.907983330
+bee 0.769629330
+bee 0.697694330
+bee 0.854054335
+bee 0.739388335
+bee 0.831293335
+bee 0.869948335
+bee 0.606775335
+bee 0.812648340
+bee 0.901359340
+bee 0.754749340
+bee 0.884229340
+bee 0.920664340
+bee 0.913237345
+bee 0.624905345
+bee 0.819572345
+bee 0.670473345
+bee 0.540306345
+bee 0.422617350
+bee 0.797859350
+bee 0.669206350
+bee 0.697966350
+bee 0.928591350
+safety pin 0.0515167355
+bee 0.915125355
+bee 0.357152355
+bee 0.92655355
+bee 0.590489355
+bee 0.758517360
+crayfish, crawfish, crawdad, crawdaddy 0.12695360
+spatula 0.0489023360
+paintbrush 0.076885360
+bucket, pail 0.0750385360
+paintbrush 0.0726758365
+paintbrush 0.084603365
+paintbrush 0.112457365
+paintbrush 0.068303365
+spatula 0.0634928365
+paintbrush 0.118249370
+paintbrush 0.0970196370
+paintbrush 0.087839370
+paintbrush 0.0906588370
+paintbrush 0.0870187370
+paintbrush 0.0913464375
+paintbrush 0.0913464375
+paintbrush 0.0919488375
+paintbrush 0.087251375
+paintbrush 0.0913464375
+paintbrush 0.0913464380
+paintbrush 0.0913464380
+paintbrush 0.0913464380
+paintbrush 0.0913464380
+paintbrush 0.0913464380
+paintbrush 0.0913464385
+paintbrush 0.0913464385
+paintbrush 0.0913464385
+paintbrush 0.0913464385
+paintbrush 0.0913464385
+paintbrush 0.0913464390
+paintbrush 0.0913464390
+paintbrush 0.0913464390
+paintbrush 0.0913464390
+paintbrush 0.0913464390
+paintbrush 0.0913464395
+paintbrush 0.0913464395
+paintbrush 0.0913464395
+paintbrush 0.0913464395
+paintbrush 0.0913464395
+ice lolly, lolly, lollipop, popsicle 0.001190913100
+ice lolly, lolly, lollipop, popsicle 0.001190913100
+ice lolly, lolly, lollipop, popsicle 0.001190913100
+ice lolly, lolly, lollipop, popsicle 0.001190913100
+ice lolly, lolly, lollipop, popsicle 0.001190913100
+bee 0.86241540
+bee 0.86241540
+bee 0.86241540
+bee 0.86241540
+bee 0.86241540
+bee 0.92872545
+bee 0.85508345
+bee 0.77495845
+bee 0.77146845
+bee 0.80116845
+bee 0.841667410
+bee 0.710147410
+bee 0.780575410
+bee 0.801783410
+bee 0.78241410
+bee 0.772477415
+bee 0.768147415
+bee 0.81115415
+bee 0.756084415
+bee 0.830611415
+bee 0.810921420
+bee 0.754367420
+bee 0.738552420
+bee 0.670648420
+bee 0.633971420
+bee 0.624456425
+bee 0.599977425
+bee 0.533175425
+bee 0.684611425
+bee 0.527779425
+bee 0.42288430
+bee 0.641427430
+bee 0.445925430
+bee 0.694348430
+bee 0.419908430
+bee 0.49289435
+bee 0.463489435
+bee 0.456155435
+bee 0.494045435
+bee 0.483108435
+bee 0.72655440
+bee 0.328447440
+bee 0.487111440
+bee 0.281592440
+bee 0.531516440
+bee 0.203933445
+bee 0.32895445
+bee 0.299329445
+bee 0.297841445
+bee 0.371432445
+bee 0.170806450
+bee 0.179548450
+bee 0.200531450
+bee 0.198797450
+bee 0.14092450
+bee 0.167692455
+bee 0.159227455
+long-horned beetle, longicorn, longicorn beetle 0.116563455
+bee 0.0752824455
+long-horned beetle, longicorn, longicorn beetle 0.142325455
+long-horned beetle, longicorn, longicorn beetle 0.0147652460
+bee 0.0156238460
+bee 0.0272831460
+ladybug, ladybeetle, lady beetle, ladybird, ladybird beetle 0.0203514460
+bee 0.0272218460
+bee 0.00494832465
+bee 0.00888742465
+bee 0.00557862465
+long-horned beetle, longicorn, longicorn beetle 0.00570076465
+long-horned beetle, longicorn, longicorn beetle 0.0200074465
+long-horned beetle, longicorn, longicorn beetle 0.00322969470
+acorn 0.00142115470
+quill, quill pen 0.00122961470
+spider web, spider's web 0.0016616470
+spider web, spider's web 0.00182199470
+ice lolly, lolly, lollipop, popsicle 0.00118892475
+ice lolly, lolly, lollipop, popsicle 0.0012156475
+quill, quill pen 0.00121345475
+ice lolly, lolly, lollipop, popsicle 0.00119091475
+ice lolly, lolly, lollipop, popsicle 0.00119091475
+ice lolly, lolly, lollipop, popsicle 0.00119091480
+ice lolly, lolly, lollipop, popsicle 0.00119091480
+ice lolly, lolly, lollipop, popsicle 0.00119091480
+ice lolly, lolly, lollipop, popsicle 0.00119091480
+ice lolly, lolly, lollipop, popsicle 0.00119091480
+ice lolly, lolly, lollipop, popsicle 0.00119091485
+ice lolly, lolly, lollipop, popsicle 0.00119091485
+ice lolly, lolly, lollipop, popsicle 0.00119091485
+ice lolly, lolly, lollipop, popsicle 0.00119091485
+ice lolly, lolly, lollipop, popsicle 0.00119091485
+ice lolly, lolly, lollipop, popsicle 0.00119091490
+ice lolly, lolly, lollipop, popsicle 0.00119091490
+ice lolly, lolly, lollipop, popsicle 0.00119091490
+ice lolly, lolly, lollipop, popsicle 0.00119091490
+ice lolly, lolly, lollipop, popsicle 0.00119091490
+ice lolly, lolly, lollipop, popsicle 0.00119091495
+ice lolly, lolly, lollipop, popsicle 0.00119091495
+ice lolly, lolly, lollipop, popsicle 0.00119091495
+ice lolly, lolly, lollipop, popsicle 0.00119091495
+ice lolly, lolly, lollipop, popsicle 0.00119091495
+paintbrush 0.09134644100
+paintbrush 0.09134644100
+paintbrush 0.09134644100
+paintbrush 0.09134644100
+paintbrush 0.09134644100
+bee 0.86241550
+bee 0.86241550
+bee 0.86241550
+bee 0.86241550
+bee 0.86241550
+bee 0.86245655
+bee 0.82486155
+bee 0.81302355
+bee 0.86151955
+bee 0.84648855
+bee 0.887741510
+bee 0.852455510
+bee 0.923969510
+bee 0.860326510
+bee 0.875903510
+bee 0.744117515
+bee 0.937215515
+bee 0.77702515
+bee 0.77273515
+bee 0.878345515
+bee 0.818766520
+bee 0.874482520
+bee 0.923665520
+bee 0.893164520
+bee 0.806298520
+bee 0.881393525
+bee 0.842293525
+bee 0.856697525
+bee 0.912008525
+bee 0.874514525
+bee 0.800122530
+bee 0.928688530
+bee 0.662214530
+bee 0.823142530
+bee 0.82473530
+bee 0.904992535
+bee 0.914631535
+bee 0.941986535
+bee 0.94974535
+bee 0.894263535
+bee 0.885199540
+bee 0.731273540
+bee 0.910244540
+bee 0.909369540
+bee 0.787851540
+bee 0.947771545
+bee 0.976161545
+bee 0.885441545
+bee 0.954305545
+bee 0.954702545
+bee 0.932613550
+bee 0.815871550
+bee 0.949588550
+bee 0.940658550
+bee 0.952807550
+bee 0.359385555
+bee 0.899191555
+bee 0.830021555
+bee 0.634297555
+bee 0.761422555
+bee 0.802787560
+bee 0.933186560
+bee 0.494503560
+bee 0.69694560
+bee 0.930606560
+honeycomb 0.128531565

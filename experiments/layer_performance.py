@@ -17,8 +17,11 @@ def test_layer(layer, percentage, accurate):
 # test fast model
 for layer in range(1, FAST_MODEL_LAYER + 1):
 	for percentage in range(0, 101, 5):
-	        test_layer(layer, percentage, False)
+		for i in range(5):
+			test_layer(layer, percentage, False)
+
 # test accurate model
 for layer in range(1, ACCURATE_MODEL_LAYER + 1):
 	for percentage in range(0, 101, 5):
-		test_layer(layer, percentage, True)
+		for i in range(5):
+			test_layer(layer, percentage, True)
