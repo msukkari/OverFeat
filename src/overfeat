@@ -26,6 +26,11 @@ parser.add_option("-c", "--zero_perc", dest="zero_perc", action="store", default
 
 net_idx = 1 if options.large_net else 0
 
+zero_layer = int(options.zero_layer)
+zero_perc = int(options.zero_perc)
+layer_vis = int(options.layer_vis)
+filter_vis = int(options.filter_vis)
+
 if not os.path.exists(options.data_dir):
    if options.data_dir != default_data_dir:
       print >> sys.stderr, "Specified path to data (%s) does not exist"%(options.data_dir)
@@ -36,7 +41,7 @@ weight_file = os.path.join(options.data_dir, "net_weight_%d"%(net_idx))
 if not os.path.exists(weight_file):
    print >> sys.stderr, "File %s does not exists. Please check your path, or use option -d"%(weight_file)
 
-if (len(args) < 1) and (not options.ppm):
+if (len(args) < 1) and (not options.ppm) and (layer_vis < 0):
    print >> sys.stderr, "Missing input image path (or -p option)"
    parser.print_help()
    sys.exit(0)
@@ -53,10 +58,6 @@ if options.large_net == True:
 if options.features_layer != None:
    featurelayer = int(options.features_layer)
 
-zero_layer = int(options.zero_layer)
-zero_perc = int(options.zero_perc)
-layer_vis = int(options.layer_vis)
-filter_vis = int(options.filter_vis)
 
 if options.ppm == True:
    subprocess.call("%s %s/overfeatcmd %s %d %d %d"%(ldpath, file_dir, weight_file, ntop, net_idx, featurelayer), stdin = sys.stdin, stdout = sys.stdout, shell=True)
@@ -65,6 +66,6 @@ if ntop < 0:
 elif layer_vis < 0:
    os.system("%s convert %s -resize 231x231^ ppm:- | %s/overfeatcmd %d %s %d %d %d %d %d"%(ldpath, string.join(args, " "), file_dir, 1, weight_file, ntop, net_idx, zero_layer, zero_perc, featurelayer))
 else:
-   os.system("%s convert %s -resize 231x231^ ppm:- | %s/overfeatcmd %d %s %d %d %d"%(ldpath, string.join(args, " "), file_dir, 0, weight_file, net_idx, layer_vis, filter_vis))
+   os.system("%s/overfeatcmd %d %s %d %d %d"%(file_dir, 0, weight_file, net_idx, layer_vis, filter_vis))
 
 
