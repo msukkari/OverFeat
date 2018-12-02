@@ -20,15 +20,13 @@ namespace overfeat {
   //  the function returns a nClasses x h x w THTensor*
   //  see README for more details
   // The output tensor must NOT be freed by the user
-  THTensor* fprop(THTensor* input, int zero_layer, int zero_perc, int mask_layer);
+  THTensor* fprop(THTensor* input, int zero_layer, int zero_perc);
   
   // This function computes the soft max, transforming the output of the network
   //  input probabilities. See README for more details
   void soft_max(THTensor* input, THTensor* output);
 
-  void saveWeight(int weight_number, int filter_number, int depth, std::string file_name);
-
-  void writeFilterToPPM(THTensor* weight, int filter, int depth, std::string file_name);
+  void writeFilterToPPM(int layer, int filter);
 
   void printOutputDimensions(int index, bool is_output);
   

@@ -17,7 +17,8 @@ parser.add_option("-L", "--features-layer", dest="features_layer", action="store
 parser.add_option("-d", "--data_dir", dest="data_dir", action="store", default=default_data_dir, help="Path to the folder containing the model data")
 parser.add_option("-l", "--large_net", dest="large_net", action="store_true", default=False, help="Use larger but slower network")
 parser.add_option("-v", "--verbose", dest="verbose", action="store_true", default=False, help="Print verbose information")
-parser.add_option("-m", "--mask", dest="mask", action="store", default=-1, help="Layer to mask")
+parser.add_option("-V", "--layer_vis", dest="layer_vis", action="store", default=-1, help="Layer to visualize filters of")
+parser.add_option("-F", "--filter_vis", dest="filter_vis", action="store", default=-1, help="Filter to visualize")
 parser.add_option("-z", "--zero_layer", dest="zero_layer", action="store", default=-1, help="layer to zero out weights")
 parser.add_option("-c", "--zero_perc", dest="zero_perc", action="store", default = 0.0, help="percentage of weights that are zero'd out")
 
@@ -54,12 +55,16 @@ if options.features_layer != None:
 
 zero_layer = int(options.zero_layer)
 zero_perc = int(options.zero_perc)
-mask = options.mask
+layer_vis = int(options.layer_vis)
+filter_vis = int(options.filter_vis)
 
 if options.ppm == True:
    subprocess.call("%s %s/overfeatcmd %s %d %d %d"%(ldpath, file_dir, weight_file, ntop, net_idx, featurelayer), stdin = sys.stdin, stdout = sys.stdout, shell=True)
 if ntop < 0:
    os.system("%s convert %s ppm:- | %s/overfeatcmd %s %d %d %d %d"%(ldpath, string.join(args, " "), file_dir, weight_file, ntop, net_idx, int(options.mask), featurelayer))
+elif layer_vis < 0:
+   os.system("%s convert %s -resize 231x231^ ppm:- | %s/overfeatcmd %d %s %d %d %d %d %d"%(ldpath, string.join(args, " "), file_dir, 1, weight_file, ntop, net_idx, zero_layer, zero_perc, featurelayer))
 else:
-   os.system("%s convert %s -resize 231x231^ ppm:- | %s/overfeatcmd %s %d %d %d %d %d %d"%(ldpath, string.join(args, " "), file_dir, weight_file, ntop, net_idx, int(options.mask), zero_layer, zero_perc, featurelayer))
+   os.system("%s convert %s -resize 231x231^ ppm:- | %s/overfeatcmd %d %s %d %d %d"%(ldpath, string.join(args, " "), file_dir, 0, weight_file, net_idx, layer_vis, filter_vis))
+
 

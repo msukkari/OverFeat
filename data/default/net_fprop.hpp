@@ -24,7 +24,7 @@ void printTensorContents(THTensor* input) {
 }
 
 THTensor* fprop1(THTensor* input, int net_idx, int zero_layer,
-                 int zero_perc, int mask_layer) {
+                 int zero_perc) {
 
     std::unordered_map<string,int> layer_weight_map = {
         {"01", 1},
@@ -94,11 +94,6 @@ THTensor* fprop1(THTensor* input, int net_idx, int zero_layer,
 
 
     if (net_idx == 0) {
-        if(mask_layer >= 0 && mask_layer != 5) {
-            fprintf(stderr, "Attempting to mask layer %d "
-                            "in fast model. Only layer 5 masking is allowed\n", mask_layer);
-            exit(0);
-        }
     // layer 1
     Normalization_updateOutput(input, 118.380948, 61.896913, outputs[0]);
     SpatialConvolution_updateOutput(outputs[0], 4, 4, weights[1], bias[1], outputs[1]);
@@ -122,13 +117,10 @@ THTensor* fprop1(THTensor* input, int net_idx, int zero_layer,
     THTensor* layer6_input = outputs[12];
 
     // layer 5
-    if(mask_layer != 5){
-        SpatialZeroPadding_updateOutput(outputs[12], 1, 1, 1, 1, outputs[13]);
-        SpatialConvolution_updateOutput(outputs[13], 1, 1, weights[14], bias[14], outputs[14]);
-        Threshold_updateOutput(outputs[14], 0.000000, 0.000001, outputs[15]);
-        layer6_input = outputs[15];
-    }
-    SpatialMaxPooling_updateOutput(layer6_input,2,2,2,2,weights[16], outputs[16]);
+    SpatialZeroPadding_updateOutput(outputs[12], 1, 1, 1, 1, outputs[13]);
+    SpatialConvolution_updateOutput(outputs[13], 1, 1, weights[14], bias[14], outputs[14]);
+    Threshold_updateOutput(outputs[14], 0.000000, 0.000001, outputs[15]);
+    SpatialMaxPooling_updateOutput(outputs[15],2,2,2,2,weights[16], outputs[16]);
 
     // layer 6
     SpatialConvolution_updateOutput(outputs[16], 1, 1, weights[17], bias[17], outputs[17]);
@@ -143,12 +135,6 @@ THTensor* fprop1(THTensor* input, int net_idx, int zero_layer,
     return outputs[21];
     }
     if (net_idx == 1) {
-        if(mask_layer >= 0 && mask_layer != 4 && mask_layer != 6){
-            fprintf(stderr, "Attempting to mask layer %d "
-                    "in accuract model. Only layer 4 or 6 masking is allowed\n", mask_layer);
-            exit(0);
-        }
-
     // layer 1
     Normalization_updateOutput(input, 118.380948, 61.896913, outputs[0]);
     SpatialConvolution_updateOutput(outputs[0], 2, 2, weights[1], bias[1], outputs[1]);
@@ -164,30 +150,22 @@ THTensor* fprop1(THTensor* input, int net_idx, int zero_layer,
     SpatialZeroPadding_updateOutput(outputs[6], 1, 1, 1, 1, outputs[7]);
     SpatialConvolution_updateOutput(outputs[7], 1, 1, weights[8], bias[8], outputs[8]);
     Threshold_updateOutput(outputs[8], 0.000000, 0.000001, outputs[9]);
-    THTensor* layer5_input = outputs[9];
 
     // layer 4
-    if(mask_layer != 4) {
-        SpatialZeroPadding_updateOutput(outputs[9], 1, 1, 1, 1, outputs[10]);
-        SpatialConvolution_updateOutput(outputs[10], 1, 1, weights[11], bias[11], outputs[11]);
-        Threshold_updateOutput(outputs[11], 0.000000, 0.000001, outputs[12]);
-        layer5_input = outputs[12];
-    }
+    SpatialZeroPadding_updateOutput(outputs[9], 1, 1, 1, 1, outputs[10]);
+    SpatialConvolution_updateOutput(outputs[10], 1, 1, weights[11], bias[11], outputs[11]);
+    Threshold_updateOutput(outputs[11], 0.000000, 0.000001, outputs[12]);
 
     // layer 5
-    SpatialZeroPadding_updateOutput(layer5_input, 1, 1, 1, 1, outputs[13]);
+    SpatialZeroPadding_updateOutput(outputs[12], 1, 1, 1, 1, outputs[13]);
     SpatialConvolution_updateOutput(outputs[13], 1, 1, weights[14], bias[14], outputs[14]);
     Threshold_updateOutput(outputs[14], 0.000000, 0.000001, outputs[15]);
-    THTensor* layer7_input = outputs[15];
 
     // layer 6
-    if(mask_layer != 6) {
-        SpatialZeroPadding_updateOutput(outputs[15], 1, 1, 1, 1, outputs[16]);
-        SpatialConvolution_updateOutput(outputs[16], 1, 1, weights[17], bias[17], outputs[17]);
-        Threshold_updateOutput(outputs[17], 0.000000, 0.000001, outputs[18]);
-        layer7_input = outputs[18];
-    }
-    SpatialMaxPooling_updateOutput(layer7_input,3,3,3,3,weights[19], outputs[19]);
+    SpatialZeroPadding_updateOutput(outputs[15], 1, 1, 1, 1, outputs[16]);
+    SpatialConvolution_updateOutput(outputs[16], 1, 1, weights[17], bias[17], outputs[17]);
+    Threshold_updateOutput(outputs[17], 0.000000, 0.000001, outputs[18]);
+    SpatialMaxPooling_updateOutput(outputs[18],3,3,3,3,weights[19], outputs[19]);
 
     // layer 7
     SpatialConvolution_updateOutput(outputs[19], 1, 1, weights[20], bias[20], outputs[20]);
