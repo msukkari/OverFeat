@@ -1,0 +1,2 @@
+/usr/bin/ar qc libTH.a  CMakeFiles/TH.dir/THGeneral.c.o CMakeFiles/TH.dir/THStorage.c.o CMakeFiles/TH.dir/THTensor.c.o CMakeFiles/TH.dir/THBlas.c.o CMakeFiles/TH.dir/THLapack.c.o CMakeFiles/TH.dir/THLogAdd.c.o CMakeFiles/TH.dir/THRandom.c.o CMakeFiles/TH.dir/THFile.c.o CMakeFiles/TH.dir/THDiskFile.c.o CMakeFiles/TH.dir/THMemoryFile.c.o
+/usr/bin/ranlib libTH.a

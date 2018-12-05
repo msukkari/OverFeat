@@ -4,6 +4,15 @@
 #include <cstdlib>
 #include <iostream>
 #include <algorithm>
+#include <fstream>
+#include <stdio.h>      /* printf, scanf, puts, NULL */
+#include <stdlib.h>     /* srand, rand */
+#include <time.h>       /* time */
+#include <string>
+#include <sstream>
+#include <unordered_map>
+#include <unordered_set>
+#include "tools/ppm.hpp"
 #include "overfeat.hpp"
 using namespace std;
 
@@ -20,6 +29,26 @@ using namespace std;
 #include "modules.hpp"
 
 namespace overfeat {
+
+  std::unordered_map<string,int> layer_weight_map = {
+    {"01", 1},
+    {"02", 4},
+    {"03", 8},
+    {"04", 11},
+    {"05", 14},
+    {"06", 17},
+    {"07", 19},
+    {"08", 21},
+    {"11", 1},
+    {"12", 4},
+    {"13", 8},
+    {"14", 11},
+    {"15", 14},
+    {"16", 17},
+    {"17", 20},
+    {"18", 22},
+    {"19", 24}
+  };
   
   string weight_file_path_g;
   int net_idx_g;
@@ -62,6 +91,72 @@ namespace overfeat {
     for (int i = 0; i < nModules(net_idx); ++i)
       outputs[i] = THTensor_(new)();
     init1(net_idx);
+  }
+
+  void writeFilterToPPM(int layer, int filter) {
+    string key = to_string(net_idx_g) + to_string(layer);
+    if(layer_weight_map.count(key) == 0) {
+      cout << "Invalid layer given" << endl;
+      exit(0);
+    }
+
+    cout << "Visualizing filter " << filter << " in layer " << layer << endl;
+    auto weight = weights[layer_weight_map[to_string(net_idx_g) + to_string(layer)]];
+    assert(weight->nDimension == 4);
+
+    auto data = THTensor_(data)(weight);
+
+    int d1 = weight->size[0]; // # filters
+    int d2 = weight->size[1]; // filter depth
+    int d3 = weight->size[2]; // filter width
+    int d4 = weight->size[3]; // filter height
+    cout << d1 << "x" << d2 << "x" << d3 << "x" << d4 << endl;
+    if(filter >= d1 || filter < 0) {
+      cout << "Invalid filter (" << filter << ") given, # filters = " << d1 << ". Note: filter is zero indexed" << endl;
+      exit(0);
+    }
+
+    for(int depth = 0; depth < d2; depth++) {
+      stringstream file_name_ss;
+      file_name_ss << (net_idx_g == 0 ? "fast_" : "accurate_") << "layer_" << layer << "_filter_" << filter << "_depth_" << depth << ".ppm";
+
+      ofstream output_file;
+      output_file.open(file_name_ss.str());
+
+      output_file << "P3" << endl;
+      output_file << d3 << " " << d4 << endl;
+      output_file << 40 << endl;
+      
+      int n = (filter * d2 * d3 * d4) + (depth * d3 * d4); // compute starting point to index data
+      for (int h = 0; h < d4; h++) {
+        for(int w = 0; w < d3; w++) {
+          bool pos = data[n++] > 0;
+          float abs_cur = abs(data[n++]);
+          int color = min(255, int(abs_cur * 255));
+
+          // blue color for positive, red color for negative
+          if(pos) output_file << "0 0 " << color << "\t";
+          else output_file << color << " 0 0\t";
+        }
+        output_file << endl;
+      }
+
+      output_file.close();
+    }
+
+    stringstream script_command;
+    script_command << "./convert_ppms " << (net_idx_g == 0 ? "fast_" : "accurate_") << "layer_" << layer << "_filter_" << filter;
+    int res = system(script_command.str().c_str());
+  }
+
+  void printOutputDimensions(int index, bool is_output) {
+    auto t = is_output ? outputs[index] : weights[index];
+
+    cout << "Printing info about " << (is_output ? "output " : "weight ") << index << endl;
+    cout << "Dimensions: " << t->nDimension << endl;
+    for (int i = 0; i < t->nDimension; i++) {
+      cout << "dim " << i << ": " << t->size[i] << endl;
+    } 
   }
 
   void free() {
@@ -107,8 +202,8 @@ namespace overfeat {
   }
     
   #include FPROP_FILE
-  THTensor* fprop(THTensor* input) {
-    return fprop1(input, net_idx_g);
+  THTensor* fprop(THTensor* input, int zero_layer, int zero_perc) {
+    return fprop1(input, net_idx_g, zero_layer, zero_perc);
   }
 
 }

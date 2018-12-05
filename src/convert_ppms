@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+
+mogrify -format jpg *.ppm
+mogrify -resize 500x500 *.jpg
+rm *.ppm
+
+mkdir $1
+mv *.jpg $1
